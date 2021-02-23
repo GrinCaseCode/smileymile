@@ -832,6 +832,9 @@ display: flex;
 .header__top {
     padding-bottom: 0;
 }
+.header {
+    z-index: 1500;
+}
 }
 
 /* Small Devices, Tablets */
