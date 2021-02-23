@@ -1501,7 +1501,9 @@ display: flex;
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+.menu-mobile {
+    display: none !important;
+}
 }
 
  /* Large Devices, Wide Screens */
