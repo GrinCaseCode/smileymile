@@ -1886,6 +1886,9 @@ color: #8676f4;
 .header.fixed .nav__line .menu a {
 	    color: #3c3f44;
 }
+.header.fixed .nav__line .menu a:hover {
+	border-color: #3c3f44;
+}
 .header.fixed .nav {
 	padding: 0;
 }
@@ -1939,4 +1942,4 @@ display: inline-block;
 }
 .link-main:hover {
 	border-color: #14306f;
-}
+}  

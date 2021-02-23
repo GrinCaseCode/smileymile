@@ -702,18 +702,19 @@
 	left: 0;
 	width: 100%;
 	padding: 20px 15px;
-	max-width: 100%;
+	max-width: 100%; 
 	padding-bottom: 100px;
 	background-color: #fff;
 	overflow: auto;
 }
 .menu a {
 	padding: 9px 15px;
+    color: #3c3f44;
 	border-bottom: 1px #3c3f44 solid;
 	display: block;
 }
 .menu-mobile .menu {
-	display: block;
+	display: block; 
 	max-width: 100%;
 	width: 100%;
 }
@@ -1405,7 +1406,9 @@ display: flex;
     width: 135px;
     height: 200px;
     padding: 10px;
+    margin: 0 auto;
 }
+.slider-rent
 .item-news__name,
 .item-news__text {
     max-width: 100%;
@@ -1461,6 +1464,9 @@ display: flex;
 }
 .header__right .social-list {
     display: none;
+}
+.slider-rent {
+    margin-top: 20px;
 }
 }
 
