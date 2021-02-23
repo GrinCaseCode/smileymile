@@ -1153,6 +1153,9 @@ display: flex;
     margin: 0;
     margin-right: 20px;
 }
+.item-step.active::after {
+    display: none;
+}
 }
 
 /* Extra Small Devices, Phones */
