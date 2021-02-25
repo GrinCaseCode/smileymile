@@ -71,6 +71,28 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			$(".sandwich").removeClass("active");
 		});
 
+	$(".btn-dots").click(function() {
+			
+
+			if ($(".wrapper-dropdown").is(":hidden")) {
+			$(".wrapper-dropdown").fadeIn(200);
+			$(this).addClass("active");
+		} else {
+			$(".wrapper-dropdown").fadeOut(200);
+			$(this).removeClass("active");
+		}
+		});
+
+
+$(document).mouseup(function (e){ 
+	var div = $(".thanks_modal"); 
+	if (!div.is(e.target) 
+		&& div.has(e.target).length === 0) { 
+		$(".wrapper-dropdown").fadeOut(200); 
+	$(".btn-dots").removeClass("active");
+}
+});
+
 		/*высота блока по экрану*/
 	function heightDetect() {
 		$('.menu-mobile').css("height", $(window).height() -$(".header").height() + 60);
