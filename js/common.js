@@ -115,6 +115,12 @@ $(document).mouseup(function (e){
 		
 	});
 
+	$(".footer__title").click(function() {
+		$(this).toggleClass("active");
+		$(this).siblings(".footer__dropdown").slideToggle(200);
+		
+	});
+
 	//слайдер
 
 	$('.slider-logos').slick({

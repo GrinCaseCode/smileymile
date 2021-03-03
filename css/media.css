@@ -1280,6 +1280,32 @@
 .article-block__quote {
     padding: 15px;
 }
+.footer__title {
+    padding: 15px 15px;
+    font-size: 16px;
+    margin: 0 -15px;
+    cursor: pointer;
+        border-top: 1px #5e5e5e solid;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__title i {
+    transition: all 0.3s;
+}
+.footer__title.active i {
+    transform: rotate(45deg);
+}
+.footer__dropdown .row {
+    padding-bottom: 15px;
+}
+.footer__dropdown {
+    display: none;
+}
+.footer__bottom {
+    margin-top: 0;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1648,7 +1674,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+.footer__dropdown {
+    display: block !important;
+}
 }
 
 /* Medium Devices, Desktops */
